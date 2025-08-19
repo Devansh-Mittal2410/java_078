@@ -11,6 +11,10 @@ public class Student
         roll_no = r;
         name = n;
     }
+    Student(Student s){
+        roll_no = s.roll_no;
+        name = s.name;
+    }
     public void display(){
         System.out.println("Roll no. "+roll_no+" Name "+name);
     }
