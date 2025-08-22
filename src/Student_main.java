@@ -1,4 +1,4 @@
-public class MyMain {
+public class Student_main {
 
     public static void main(String[] args) //For student
     {

@@ -1,5 +1,5 @@
-public class CollegeStudent extends stu{
-    public CollegeStudent(String name, int roll_no) {
+public class stuCollege extends stu{
+    public stuCollege(String name, int roll_no) {
         super(name, roll_no);
     }
     public void attend_class()
