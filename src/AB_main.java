@@ -1,4 +1,4 @@
-public class MyClassA {
+public class AB_main {
 //    static { // used to initialize static variable and declared before main
 //        System.out.println("I am in static block");
 //    }
