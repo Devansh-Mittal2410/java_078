@@ -9,5 +9,8 @@ public class Array1 {
         for(int i = 0 ; i < a1.length ; i++){
             a1[i] = sc.nextInt();
         }
+        for(int i = 0 ; i < a1.length ; i++){
+            System.out.println(a1[i]);;
+        }
     }
 }
