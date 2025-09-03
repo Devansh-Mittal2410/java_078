@@ -1,4 +1,4 @@
-package Unit_3;
+package Unit_3.ArrayList;
 
 import java.util.*;
 
@@ -16,13 +16,13 @@ public class ArrayList2 {
 //        while(i.hasNext()){
 //            System.out.println(i.next());
 //        }
-        products.add(1,"AGD");
-        products.addLast("fcf");
-        products.addFirst("dfggg");
+//        products.add(1,"AGD");
+//        products.addLast("fcf");
+//        products.addFirst("dfggg");
         Iterator it = products.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
         }
-        System.out.println(products.get(1));
+//        System.out.println(products.get(1));
     }
 }
