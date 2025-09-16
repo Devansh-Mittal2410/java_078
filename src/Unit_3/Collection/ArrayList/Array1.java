@@ -1,4 +1,4 @@
-package Unit_3.ArrayList;
+package Unit_3.Collection.ArrayList;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Unit_3;
+package Unit_3.Collection;
 
 import java.util.TreeSet;
 
