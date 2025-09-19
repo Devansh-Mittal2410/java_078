@@ -1,4 +1,4 @@
-package Unit_3.Collection.ArrayList;
+package Unit_3.ArrayList;
 
 import java.util.*;
 

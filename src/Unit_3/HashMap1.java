@@ -1,12 +1,11 @@
-package Unit_3.Map;
+package Unit_3;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Scanner;
 
-public class LinkedHashMap1 {
+public class HashMap1 {
     public static void main(String[] args) {
-        LinkedHashMap<String, Integer> hm = new LinkedHashMap<>();
+        HashMap<String, Integer> hm = new HashMap<>();
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements : ");
         int n = sc.nextInt();
