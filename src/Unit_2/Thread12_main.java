@@ -1,9 +1,12 @@
 package Unit_2;
 
-public class Thread1_main {
+public class Thread12_main {
     public static void main(String[] args) {
         Thread1 th1 = new Thread1();
         th1.start();
+//        System.out.println("P : " + th1.getPriority());
+//        th1.setPriority(Thread.MIN_PRIORITY);
+//        System.out.println("P : " + th1.getPriority());
         Thread2 th2 = new Thread2();
         th2.start();
 //        System.out.println(th1.getName());
