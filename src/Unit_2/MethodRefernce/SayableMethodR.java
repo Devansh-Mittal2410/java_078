@@ -19,5 +19,6 @@ public class SayableMethodR {
         SayableMethodR methodR = new SayableMethodR();
         Sayable sayable = methodR::saySomething;
         sayable.say();
+        sayable.sayMore();
     }
 }

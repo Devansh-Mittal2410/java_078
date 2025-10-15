@@ -1,9 +1,7 @@
-package Unit_2;
+package Unit_2.JavaStreams;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class JavaFilterProduct {
     public static void main(String[] args) {
@@ -17,10 +15,20 @@ public class JavaFilterProduct {
         productList.add(new Product(7,"HP7",31000));
         productList.add(new Product(8,"HP8",32000));
         productList.add(new Product(9,"HP9",33000));
-        List<Double> newList = productList.stream().
-                filter(p-> p.price>30000).
-                map(p-> p.price).
-                collect(Collectors.toList());
-        ww
+
+//        List<Integer> newList = productList.stream()
+//                .filter(p-> p.price>30000)
+//                .map(p-> p.price)
+//                .collect(Collectors.toList());
+//        System.out.println(newList);
+
+//        productList.stream()
+//                .filter(p->p.price>30000)
+//                .forEach(p-> System.out.println(p.id + " " + p.name + " " + p.price));
+
+        long count=  productList.stream()
+                .filter(p->p.price>28000)
+                .count();
+        System.out.println(count);
     }
 }
